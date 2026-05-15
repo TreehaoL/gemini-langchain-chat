@@ -77,3 +77,42 @@ requirements.txt 用来记录本项目需要安装的 Python 第三方库。
     conda activate ai
 
 本项目中 requirements.txt 主要包含 LangChain、Gemini 接口包以及读取 .env 文件所需的依赖。
+
+## 运行效果
+
+程序启动后，可以在控制台中连续输入问题，AI 会进行流式输出，并在输入 `exit`、`quit` 或 `q` 后退出。
+
+```text
+连续对话已启动，输入 exit 退出。
+
+你：介绍一下你自己
+
+AI 正在思考中...
+
+你好！很高兴能和你交流。
+
+我是一个大型语言模型，由 Google 训练。我的主要目标是协助用户完成各种任务，提供信息，并进行有意义的交流。
+
+Token 统计：
+输入 tokens: 0
+输出 tokens: 5
+总 tokens: 5
+
+你：三句话介绍LangChain
+
+AI 正在思考中...
+
+LangChain 是一个开源框架，旨在简化大型语言模型应用的开发流程。
+它可以帮助开发者把大语言模型与外部数据源、工具、提示词模板和记忆模块结合起来。
+通过 LangChain，开发者可以更方便地构建聊天机器人、文档问答和智能 Agent 等应用。
+
+Token 统计：
+输入 tokens: 0
+输出 tokens: 0
+总 tokens: 0
+
+你：q
+对话结束。
+
+进程已结束，退出代码为 0
+```
