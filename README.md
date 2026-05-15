@@ -19,6 +19,18 @@
 激活环境：
 
     conda activate ai
+    
+## 一键安装环境（依赖Anaconda）
+
+本项目提供 setup_env.bat，用于自动创建或更新 Conda 环境。
+
+首次使用时，在项目目录下运行：
+
+    setup_env.bat
+
+如果双击无法运行（如环境变量没配好，会找不到命令），请打开 Anaconda Prompt，进入项目目录后执行：
+
+    setup_env.bat
 
 ## 配置 API Key
 
